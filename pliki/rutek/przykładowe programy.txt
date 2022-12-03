@@ -1,0 +1,52 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float kwota, wplata, suma_wplat, nadwplata;
+
+    cout << "Podaj potrzebna kwota:";
+    cin >> kwota;
+    suma_wplat = 0;
+    while (suma_wplat < kwota)
+    {
+        cout << "wprowadz wplate:";
+        cin >> wplata;
+        suma_wplat = suma_wplat + wplata;
+        cout << "suma wplat wynosi: " << suma_wplat << endl;
+    }
+    cout << "suma wplat wynosi:" << suma_wplat << " zł ";
+    nadwplata = suma_wplat - kwota;
+    cout << "nadwpłala  wynosi: " << nadwplata << endl;
+    return 0;
+} (edytowane)
+1 lutego 2022
+
+
+
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   char znak;
+   int liczba_znakow = 0;
+
+   do
+   {
+       cout << "wprowadz zmiene";
+       cin >> znak;
+       liczba_znakow++;
+   }
+   while (znak != '.');
+   cout << "liczba wprowdzonych znakow wynosi: " << liczba_znakow;
+   return 0;
+}
+
+
+
+
+

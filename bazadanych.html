@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+ <meta charset="utf-8" />
+ <title>Notatki Szkolne</title>
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+ 
+ <style>
+ #container
+ {
+  width: 1825px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ #logo
+ {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 15px;
+ }
+ #nav
+ {
+  float: left;
+  background-color: lightgray;
+  width: 200px;
+  min-height: 1450px;
+  padding: 10px;
+ }
+ #content
+ {
+  float: left;
+  padding: 20px;
+  width: 1385px;
+  height: 1400px;
+ }
+ #ad
+ {
+  float: left;
+  width: 160px;
+  min-height: 1450px;
+  padding: 10px;
+  background-color: lightgray;
+ }
+ #footer
+ {
+  clear: both;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+ }
+ </style>
+
+</head>
+
+<body>
+ 
+  <div id="container">
+   <div id="logo">
+    <h1>Notatki Szkolne</h1>
+   </div>
+   
+   <div id="nav">
+   <a href="index.html">Strona Główna </a> <br /> <br />
+	<a href="chemia.html">Chemia <b>[Bambik]</b> </a> <br />
+	<a href="geografia.html">Geografia </a> <br />
+	<a href="malik.html">Zawodowe <b>[Malik]</b> </a> <br />
+	<a href="angielski.html">Język Angielski <b>[Zbychu]</b> </a> <br />
+	<a href="hitman.html">Eksploatacja Sieci <b>[Hitman]</b> </a> <br />
+	<a href="wieleba.html">U. Peryferyjne <b>[Wieleba]</b> </a> <br />
+	<a href="asso.html">Pracownia ASSO <b>[Brus]</b> </a> <br />
+	<a href="koziej.html">Podstawy Przed. <b>[Koziej]</b> </a> <br />
+	<a href="historia.html">Historia <b>[Mischke]</b> </a> <br />
+	<a href="biologia.html">Biologia <b>[Świć]</b> </a> <br />
+	<a href="niemiecki.html">Język Niemiecki </a> <br />
+	<a href="polski.html">Język Polski </a> <br />
+	<a href="fizyka.html">Fizyka </a> <br />
+	<a href="rutek.html">Pracownia Pery. <b>[Rutek]</b> </a> <br />
+	<a href="bazadanych.html">Bazy Danych <b>[Galicki]</b> </a> <br />
+	<a href="matematyka.html">Matematyka <b>[Big Chungus]</b> </a> <br />
+	<a href="stronyinternetowe.html">Strony Internetowe <b>[Kapitan]</b> </a> <br />
+	<a href="zajeciaD.html">Zajęcia Dodatkowe </a> <br />
+   </div>
+   
+   <div id="content">
+     
+	 <h1> Podstawowe Pojęcia Na Temat Baz Danych </h1>
+  
+  <b>Baza danych</b> - Upodządkowany zbiór danych z określonej dziedziny tematycznej zorganizowany <br />
+w sposób ułatwiający do nich dostęp.<br />
+<br />
+ <b>System zarządzania bazą danych</b> - Program zarządzający danymi w bazie i umożliwiający <br />
+ich przetworzenie.<br />
+<br />
+ <b>System baz danych</b> - Bazy danych i system zarządzania bazą danych. <br />
+ 
+ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- <br />
+
+<b>Model baz danych :</b> Hierarchiczny, sieciowy, obiektowy, relacyjny.<br />
+<br />
+<b>Model Relacyjny</b> - Dane są przedstawiane w postaci relacji reprezentowanych przez tabelę.<br />
+Relacje (tabele) składają się z rekordów (wierszy) o takiej samej strukturze tworząc <br />
+między sobą powiązania zwane relacjami.<br />
+<br />
+<b>Relacja</b> - Tabela <br />
+<b>Nagłówek</b> - Nazwa kol.<br />
+<b>Krotka</b> - wiersz , <br />
+<b>Atrybut</b> - kolumna<br />
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- <br />
+
+<b>Cechy relacyjnego modelu danych:</b><br />
+-Dane przechowywane w tabelach<br />
+-Kombinacja (klucz podstawowy, nazwa tabeli i kolumny) da dostęp do dowolnych danych<br />
+-Manipulacje na danych realizowane są za pomocą selekcji , projekcji i złączenia<br />
+-Musi być obsługiwane wartość NULL<br />
+-Integralność danych powinna być naturalną cechą projektu baz danych.<br /><br />
+ <b>Korzyści:</b> <br />
+-efektywność przechowywania danych<br />
+-pewność integralności danych <br />
+-możliwość rozbudowybazy danych<br />
+-możliwość łatwej zamiany struktury <br />
+-zwiększenie szybkości dostępu do danych <br />
+<br />
+ <b>Opisując relacyjny model danych musimy określić:</b><br />
+-Struktury danych - sposób w jaki <br />
+-Język manipulowania danymi <br />
+-Integralność danych -sposób w jaki zostanie zapewniona poprawność przechowywania danych.<br />
+<br />
+ <b>W modelu relacyjnym: </b><br />
+-Każda kolumna musi mieć jednoznaczną nazwę. <br />
+-Każda tabela musi mieć jednoznaczną nazwę.<br /> 
+-Wszystkie wartości w kolumnie są tego samego typu<br />
+-Nie może być dwóch identycznych wierszy.<br />
+-Tabel nie może istnieć bez wierszy<br />
+-Kolejność wierszy i kolumn nie ma znaczenia.<br />
+-Dane oparte są na typach prostych.<br />
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- <br />
+
+ <b>Klucz podstawowy</b> - Minimalna kombinacja pól identyfikująca każdy rekord w tabeli w 
+sposób jednoznaczny <br />
+<br />
+ <b>Klucz sztuczny</b> - Pole zawierające unikatowy numer identyfikacyjny nadany w sposób 
+sztuczny każdemu obiektowi umieszczonemu w tabeli.<br />
+<br />
+ <b>Klucz obcy</b> - Jedno lub więcej pól tabeli , odwołują się do pola lub pól klucza 
+podstawowego w innej tabeli. Klucz obcy pokazuje w jaki sposób tabale są powiązane.
+Jest niezbędny do zdefiniowania połączenia między tabelami.<br />
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- <br />
+
+<b>Typy połączeń:</b><br />
+<b>Jeden do jednego</b> - Każdemu rekordowi z pierwszej tabeli może odpowiadać tylko jeden <br />
+rekord z drugiej tabeli a każdemu rekordowi z drugiej tabeli może odpowiadać tylko <br />
+jeden rekord z pierwszej tabeli. <br />
+<br />
+<b>Jeden do wielu</b> - Każdemu rekordowi z pierwszej tabeli może odpowiadać wiele rekordów<br />
+z drugiej tabeli a każdemu rekordowi z drugiej tabeli może odpowiadać tylko <br />
+jeden rekord z pierwszej tabeli.<br />
+<br />
+<b>Wiele do wielu</b> - Każdemu rekordowi z pierwszej tabeli może odpowiadać wiele rekordów<br />
+z drugiej tabeli i na odwrót.<br />
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- <br />
+
+<b>Encja</b> - Każdy przedmiot , zjawisko , itd. obiekt który potrafimy odróżnić od innych <br />
+obiektów np. (samochód , stan pogody , osoba)<br />
+<br />
+<b>Atrybut</b> - Encje mają określone cechy nazwane atrybutami. Zestaw atrybutów które <br />
+określamy dla encji , zależy od potrzeb bazy danych.<br />
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- <br />
+	 
+   </div>
+   
+   <div id="ad">
+     <img src="img/reklama.png" />
+   </div>
+   
+   <div id="footer">
+   Malik Śmietana Król &copy; Wszelkie prawa zastrzeżone
+   </div>
+   
+  
+  
+  
+  </div>
+ 
+
+</body>
+
+
+</html>

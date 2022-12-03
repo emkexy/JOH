@@ -1,0 +1,39 @@
+<DOCKTYPE !>
+<html>
+<head>
+		<meta charset="utf-8"/> <!-- obsługiwanie polskich znaków, było na lekcjach -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/> <!-- kompatybilność z edgem, nie było na lekcjach -->
+		<title>TYTUŁ</title> <!-- dajcie tu tytuł strony-->
+</head>
+<body>
+<!-- style= określa styl div'a
+	 width - długość, min-height - minimalna wysokość
+	 float: left; i clear: both; odpowiadają za kolumny na stronie, NIEUSÓWAĆ BO SIĘ POSYPIE KOD 
+	 text-align lub align - wyśrodkowanie
+	id - nazwenictwo (ma też inne zastosowanie ale nie jest to teraz potzebne, możecie pozmieniać na inne nazwy) -->
+
+
+<!-- pozmieniajcie kolory lub inne pierdolniki, dodajcie coś od siebie i gotowe !!!!! -->
+
+	<div id="all" style="width: 1000; ">
+	
+		<div id="header" style="text-align: center; background-color: green; color: black; ">
+			<h1> Sklep Komputerowy <h1> <!--tu wpisz nazwe serwisu i dodajcie logo -->
+			<!-- <img src="ścieżka.jpg"> to do loga -->
+		</div>	
+		<div id="aside" style="width: 350; min-height: 620px; background-color: grey; float: left;">
+			<!-- TU wpiście jakieś pierdoły nwm -->
+		</div>
+		<div id="content" style="width: 650; min-height: 620px; background-color: purple; float: left;">
+		<!-- Wpisz tu innformacje które chcesz zamieścić na stronie, pamiętaj o wykorzystywaniu innych znaczników-->
+		
+		</div>
+		<div ="footer" style="background: black; color: white; clear: both; ">
+		<!-- najelpiej aby było ciemne tło i białe napisy, ale to jak chcecie -->
+			imię i nazwiko &copy; Wszelkie prawa zasztrzeżone 
+		<!-- wpisz dane, dałem ten pierdolik powyżej abyście zabłyśli xDD. możecie go usunąć-->
+		</div>
+	</div>
+	
+</body>
+</html>
